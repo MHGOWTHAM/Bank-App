@@ -15,5 +15,6 @@ public class Main {
         String pass=sc.next();
         System.out.println(s.withdrawMoney(money,pass));
         System.out.println("Your Account no."+s.getAccountNo());
+        System.out.println("END");
     }
 }
