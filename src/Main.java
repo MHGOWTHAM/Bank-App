@@ -14,6 +14,6 @@ public class Main {
         System.out.println("Enter the password");
         String pass=sc.next();
         System.out.println(s.withdrawMoney(money,pass));
-        System.out.println(s.calculateInterest(10));
+        System.out.println("Your Account no."+s.getAccountNo());
     }
 }
